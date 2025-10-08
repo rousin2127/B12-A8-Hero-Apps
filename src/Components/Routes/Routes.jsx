@@ -10,9 +10,11 @@ const router= createBrowserRouter([
   {
     path:'/',
     Component: Root,
+    hydrateFallbackElement: <p><span>Loading.....</span></p>,
     children:[
         {
             index:true,
+            loader: ()=> fetch('./appsData.json'),
             Component:Home
         },
         {

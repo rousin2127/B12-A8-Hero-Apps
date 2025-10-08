@@ -1,0 +1,219 @@
+[
+  {
+    "image": "https://i.ibb.co.com/vySPy1H/smartphone-application-security-with-e-commerce-free-vector.jpg",
+    "title": "TaskFlow",
+    "companyName": "FlowTech Ltd.",
+    "id": 1,
+    "description": "TaskFlow helps you organize your daily activities with powerful task tracking and intelligent reminders. You can easily create projects, assign deadlines, and visualize your productivity. The app syncs across all devices so you never lose your progress. TaskFlow also integrates with your calendar and email for seamless planning. The interface is clean and minimal, making navigation effortless. Smart suggestions help you prioritize tasks based on urgency. You can also collaborate with teammates in real time. TaskFlow offers detailed analytics on your completed tasks and habits. The built-in focus timer boosts your concentration. Dark mode and customizable themes give a personal touch. The app supports cloud backup to ensure your data is safe. Regular updates bring new features and performance improvements. TaskFlow is perfect for students, professionals, and anyone looking to maximize productivity.",
+    "size": 45,
+    "reviews": 1200,
+    "ratingAvg": 4.6,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 520 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/vySPy1H/smartphone-application-security-with-e-commerce-free-vector.jpg",
+    "title": "FitTrack",
+    "companyName": "Healthify Co.",
+    "id": 2,
+    "description": "FitTrack is your personal health companion designed to help you stay active and motivated. It tracks your workouts, calories, and progress with precision. The app connects to most wearable devices and fitness trackers. You can set personalized fitness goals and receive daily insights. FitTrack uses AI to suggest exercise routines based on your body type. The nutrition tracker ensures you stay on top of your diet. You can log water intake, sleep, and stress levels too. A detailed dashboard visualizes your fitness journey clearly. Social challenges let you compete with friends and stay motivated. The app provides expert tips for healthy living. Push notifications encourage consistency and routine. Regular updates introduce new exercises and training plans. FitTrack makes fitness a lifestyle, not a task.",
+    "size": 60,
+    "reviews": 3400,
+    "ratingAvg": 4.3,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 230 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 1000 },
+      { "name": "5 star", "count": 1620 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/vySPy1H/smartphone-application-security-with-e-commerce-free-vector.jpg",
+    "title": "NoteEase",
+    "companyName": "Paperless Inc.",
+    "id": 3,
+    "description": "NoteEase brings simplicity and power to note-taking. With a minimal interface, it allows you to capture ideas quickly. Organize notes in folders or tags for easy retrieval. The app supports handwriting, typing, and voice notes. You can even draw sketches directly on the page. Cloud sync keeps your notes safe and accessible. Collaboration tools allow team sharing and comments. Advanced search helps you find information instantly. NoteEase also includes password protection for sensitive notes. You can change fonts, colors, and layout themes. Offline access ensures productivity anytime. The app is lightweight and fast, optimized for low storage usage. Regular updates refine the experience and introduce new tools.",
+    "size": 25,
+    "reviews": 890,
+    "ratingAvg": 4.1,
+    "downloads": 300000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 290 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/vySPy1H/smartphone-application-security-with-e-commerce-free-vector.jpg",
+    "title": "BudgetBuddy",
+    "companyName": "FinWise",
+    "id": 4,
+    "description": "BudgetBuddy is your personal financial assistant designed to simplify money management. It automatically tracks expenses and categorizes spending. The app supports multiple currencies and accounts. Users can set monthly budgets and receive alerts when nearing limits. Visual charts display your spending trends clearly. Savings goals help you stay disciplined and motivated. BudgetBuddy also connects securely to your bank for live updates. Its AI engine provides smart suggestions for cutting costs. The dashboard is clean, modern, and easy to use. You can export reports in CSV or PDF formats. Password protection keeps your financial data safe. Offline mode ensures continued tracking. Frequent updates bring new insights and enhancements.",
+    "size": 52,
+    "reviews": 2100,
+    "ratingAvg": 4.7,
+    "downloads": 950000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 480 },
+      { "name": "5 star", "count": 1350 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/vySPy1H/smartphone-application-security-with-e-commerce-free-vector.jpg",
+    "title": "PhotoFixer",
+    "companyName": "PixelPro Labs",
+    "id": 5,
+    "description": "PhotoFixer lets you transform your photos with professional editing tools. It offers one-tap enhancements powered by AI. You can adjust brightness, contrast, and color balance easily. The app includes background remover and retouching tools. Filters and presets make your photos look stunning instantly. Batch editing saves time for photographers. The interface is intuitive and fast. Built-in tutorials help beginners learn editing basics. Cloud storage integration ensures your projects are safe. You can share edits directly to social media platforms. The app supports RAW image formats for professionals. Offline editing is available for convenience. Continuous updates add fresh effects and templates.",
+    "size": 80,
+    "reviews": 4700,
+    "ratingAvg": 4.5,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 220 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 2480 }
+    ]
+  }
+    ,
+  {
+    "image": "https://i.ibb.co.com/vySPy1H/smartphone-application-security-with-e-commerce-free-vector.jpg",
+    "title": "MindCalm",
+    "companyName": "ZenSpace",
+    "id": 6,
+    "description": "MindCalm offers a serene space to practice meditation and mindfulness. It provides guided sessions for beginners and advanced users. Daily reminders encourage consistent practice. The app tracks your stress levels and mood over time. Breathing exercises help reduce anxiety and promote relaxation. MindCalm includes ambient sounds to enhance focus and sleep. You can create custom meditation routines to suit your schedule. The app integrates with wearable devices for accurate tracking. Insights and tips help improve mental well-being. Achievements and streaks keep you motivated. The interface is calming and minimal, enhancing the meditation experience. Offline mode ensures access anytime. Frequent updates add new sessions and techniques.",
+    "size": 35,
+    "reviews": 1600,
+    "ratingAvg": 4.8,
+    "downloads": 800000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 1100 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/vySPy1H/smartphone-application-security-with-e-commerce-free-vector.jpg",
+    "title": "CookSmart",
+    "companyName": "RecipeWorks",
+    "id": 7,
+    "description": "CookSmart helps you discover and create delicious recipes from around the world. Step-by-step instructions make cooking simple. Ingredient lists include substitutions and measurements. You can save favorite recipes for easy access. The app provides nutritional information for each dish. Meal planning tools help organize weekly menus. Video tutorials guide you through complex recipes. CookSmart includes a grocery list generator for efficient shopping. Users can share recipes with friends and family. Seasonal recommendations inspire new culinary adventures. Customizable portions adjust recipes to your needs. Notifications remind you of planned meals and timers. Regular updates introduce trending recipes and features.",
+    "size": 48,
+    "reviews": 3100,
+    "ratingAvg": 4.4,
+    "downloads": 1100000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 350 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1650 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/vySPy1H/smartphone-application-security-with-e-commerce-free-vector.jpg",
+    "title": "LangLearn",
+    "companyName": "EduVerse",
+    "id": 8,
+    "description": "LangLearn is a fun, interactive way to learn new languages. It offers gamified lessons and quizzes to enhance retention. Vocabulary and grammar are taught progressively for easy understanding. Speech recognition helps perfect pronunciation. Users can track daily progress and streaks. The app supports multiple languages and dialects. Cultural tips help you understand context and usage. LangLearn includes conversation practice with AI partners. Offline mode allows learning anytime, anywhere. The dashboard shows strengths and areas for improvement. Notifications encourage daily engagement. Customizable lesson plans suit your learning style. Regular updates add new languages and content.",
+    "size": 70,
+    "reviews": 5600,
+    "ratingAvg": 4.2,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 1600 },
+      { "name": "5 star", "count": 2500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/vySPy1H/smartphone-application-security-with-e-commerce-free-vector.jpg",
+    "title": "TravelMate",
+    "companyName": "WanderWorks",
+    "id": 9,
+    "description": "TravelMate helps plan your trips and discover new destinations. It provides itinerary suggestions based on preferences and travel style. The app includes hotel, flight, and transportation booking. You can save favorite places and share plans with friends. TravelMate offers local tips, restaurants, and hidden gems. Offline maps and guides ensure accessibility without internet. Currency converters and budgeting tools simplify expenses. Push notifications alert you to travel deals and updates. The app tracks your travel history and memories. Language translation tools assist in communication abroad. TravelMate also includes travel insurance information. The interface is intuitive and visually appealing. Regular updates add new destinations and travel features.",
+    "size": 65,
+    "reviews": 2700,
+    "ratingAvg": 4.3,
+    "downloads": 900000,
+    "ratings": [
+      { "name": "1 star", "count": 130 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1190 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/vySPy1H/smartphone-application-security-with-e-commerce-free-vector.jpg",
+    "title": "MusicWave",
+    "companyName": "Soundify",
+    "id": 10,
+    "description": "MusicWave allows you to stream and enjoy music from a massive library. Playlists are curated to suit moods, activities, and genres. The app supports offline downloads for listening anywhere. Personalized recommendations help discover new tracks. MusicWave integrates with smart speakers and devices. Lyrics display and karaoke mode enhance engagement. Users can create and share playlists with friends. High-quality audio streaming ensures a rich experience. The interface is sleek, modern, and easy to navigate. Push notifications highlight new releases and concerts. Social features allow following artists and friends. Equalizer and sound settings provide customization. Regular updates add new tracks and features for music lovers.",
+    "size": 90,
+    "reviews": 8700,
+    "ratingAvg": 4.6,
+    "downloads": 3500000,
+    "ratings": [
+      { "name": "1 star", "count": 350 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 4950 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/vySPy1H/smartphone-application-security-with-e-commerce-free-vector.jpg",
+    "title": "NewsPulse",
+    "companyName": "DailyByte",
+    "id": 11,
+    "description": "NewsPulse keeps you updated with the latest global and local news. It covers topics like politics, technology, sports, and entertainment. Personalized feeds allow you to follow your favorite categories. Push notifications alert you to breaking news instantly. The app includes articles, videos, and podcasts for diverse media consumption. You can save articles to read offline anytime. A clean interface makes navigation seamless. Fact-checking tools help identify reliable sources. Users can comment and interact with other readers. Dark mode ensures comfortable reading at night. Search and filters make it easy to find specific topics. Daily summaries highlight important events. Regular updates introduce new features and improve performance.",
+    "size": 40,
+    "reviews": 1900,
+    "ratingAvg": 4.0,
+    "downloads": "7M",
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 220 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 660 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/vySPy1H/smartphone-application-security-with-e-commerce-free-vector.jpg",
+    "title": "GameHub",
+    "companyName": "PixelNation",
+    "id": 12,
+    "description": "GameHub is a platform to discover and play the latest mobile games. It features trending games and user ratings for easy selection. You can download games directly through the app. GameHub supports multiplayer and social features to connect with friends. Daily challenges and tournaments keep gameplay exciting. The app provides detailed reviews and gameplay videos. Recommendations are personalized based on user preferences. Cloud saves ensure you don’t lose progress. In-app events offer rewards and bonuses. GameHub supports both casual and competitive gamers. Push notifications keep you updated on new releases. Offline play is available for selected games. Regular updates improve performance and add new titles.",
+    "size": 100,
+    "reviews": 10200,
+    "ratingAvg": 4.5,
+    "downloads": "5m",
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 5300 }
+    ]
+  }
+]

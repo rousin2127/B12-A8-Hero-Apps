@@ -1,16 +1,29 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
-import { Outlet } from 'react-router';
+import { Outlet, useNavigation } from 'react-router';
+import { ToastContainer } from 'react-toastify';
+import LoadingSpiner from '../Loading/LoadingSpiner';
 
 const Root = () => {
+
+    const navigation = useNavigation()
+    const isNavigating = Boolean(navigation.location);
+    console.log(navigation.state)
+
     return (
+        <>
         <div className='flex flex-col min-h-screen'>
             <Navbar></Navbar>
-            <div className='max-w-screen-2xl mx-auto w-full px-4 md:px-8  flex-1 bg-[#f8f9f5]  '><Outlet></Outlet></div>
+            <div className=' flex-1 bg-[#f8f9f5]  '>
+                {isNavigating && <LoadingSpiner />}
+                <Outlet></Outlet>
+                </div>
             <Footer></Footer>
             
         </div>
+        <ToastContainer></ToastContainer>
+        </>
     );
 };
 

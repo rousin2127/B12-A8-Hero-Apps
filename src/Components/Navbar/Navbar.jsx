@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router';
-
+import Logo from '../../assets/images/logo.png'
+import GitLogo from '../../assets/images/git.png'
 const Navbar = () => {
     return (
         <div className="navbar bg-base-100 shadow-sm ">
@@ -17,7 +18,10 @@ const Navbar = () => {
                         <li><NavLink to='/installation'>Installation</NavLink></li>
                     </ul>
                 </div>
-                <Link to='/' className="font-bold text-xl">HERO.IO</Link>
+                <div className='flex items-center'>
+                    <img className='w-8' src={Logo} alt="" />
+                <Link to='/' className="font-bold text-xl bg-gradient-to-tl from-[#9F62F2] to-[#632EE3] bg-clip-text text-transparent">HERO.IO</Link>
+                </div>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -27,7 +31,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end mr-8">
-                <NavLink to='https://github.com/rousin2127' className="btn">Contribute</NavLink >
+                <NavLink to='https://github.com/rousin2127' className="btn bg-gradient-to-tl from-[#9F62F2] to-[#632EE3]"><img src={GitLogo} alt="" /> Contribute</NavLink >
             </div>
         </div>
     );

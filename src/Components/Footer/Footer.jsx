@@ -4,9 +4,9 @@ const Footer = () => {
     return (
 <footer className=" bg-[#001931] flex flex-col text-neutral-content p-5">
   <div className='flex justify-between items-center'>
-    <h2>HERO.IO</h2>
+    <h2 className='bg-gradient-to-tl from-[#9F62F2] to-[#632EE3] bg-clip-text text-transparent'>HERO.IO</h2>
           <nav>
-    <h6 className="footer-title">Social</h6>
+    <h6 className="footer-title">Social Links</h6>
     <div className="grid grid-flow-col gap-4">
       <a>
         <svg

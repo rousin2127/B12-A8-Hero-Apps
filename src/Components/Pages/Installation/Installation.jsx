@@ -1,4 +1,7 @@
 import React, { useEffect, useState } from 'react';
+import { toast } from 'react-toastify';
+import D from '../../../assets/images/icon-downloads.png'
+import R from '../../../assets/images/icon-ratings.png'
 
 const Installation = () => {
 
@@ -27,15 +30,20 @@ const Installation = () => {
             const existingApp= JSON.parse(localStorage.getItem('installation'))
             let updatedApp= existingApp.filter(a => a.id !==id)
             setInstallation(updatedApp)
+            toast('unstall')
             localStorage.setItem('installation', JSON.stringify(updatedApp))
 
     }
 
     return (
-        <div className='space-y-6 pb-8'>
-            <div className='flex justify-between py-5 items-center'>
-                <p>
-                    AppList: {installation.length}
+        <div className='mx-auto space-y-6 pb-8  md:mx-15'>
+          <div className='text-center mt-10'>
+            <h1 className='font-bold text-4xl'>Your Installed Apps</h1>
+            <p className='pt-2 text-[#627382]'>Explore All Trending Apps on the Market developed by us</p>
+          </div>
+            <div className='flex justify-between my-4 items-center'>
+                <p className='font-bold'>
+                  {installation.length} Apps Found
                 </p>
             <label className='form-control w-full max-w-40'>
                                 <select className='select select-bordered'
@@ -47,13 +55,13 @@ const Installation = () => {
                 </select>
             </label>
             </div>
-            <div className='space-y-3'>
+            <div className='space-y-3 p-2'>
                 {
                     sortedItem().map(a=> 
                                   <div key={a.id} className='card card-side bg-base-100 shadow border'>
             <figure>
               <img
-                className='w-40 h-28 object-cover'
+                className=' rounded-sm w-30 h-28 object-cover'
                 src={a.image}
                 alt={a.title}
               />
@@ -61,8 +69,8 @@ const Installation = () => {
             <div className='card-body'>
               <h3 className='card-title'>{a.title}</h3>
               <div className='flex gap-4 '>
-              <span className=''>{a.downloads}</span>
-              <span className=''>{a.ratingAvg}</span>
+              <span className='flex justify-center items-center  text-green-400'><img className='w-4 h-4' src={D} alt="" /> {a.downloads}</span>
+              <span className='flex items-center justify-center'><img className='w-4 h-4' src={R} alt="" /> {a.ratingAvg}</span>
               <span className=''>{a.size}MB</span>
               </div>
             </div>
@@ -70,7 +78,7 @@ const Installation = () => {
               <div className='font-semibold'></div>
               <button onClick={() => handleRemove(a.id) }
             
-                className='btn btn-outline'
+                className='btn btn-outline bg-[#00D390]'
               >
                 Uninstall
               </button>

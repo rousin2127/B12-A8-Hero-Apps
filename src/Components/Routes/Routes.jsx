@@ -5,13 +5,14 @@ import Apps from "../Pages/Apps/Apps";
 import Error from "../Pages/ErrorPage/Error";
 import Installation from "../Pages/Installation/Installation";
 import AppDetails from "../Pages/AppsDetails/AppDetails";
+import LoadingSpiner from "../Loading/LoadingSpiner";
 
 
 const router= createBrowserRouter([
   {
     path:'/',
     Component: Root,
-    hydrateFallbackElement: <p><span>Loading.....</span></p>,
+    // hydrateFallbackElement: <LoadingSpiner></LoadingSpiner>,
     children:[
         {
             index:true,
@@ -28,8 +29,16 @@ const router= createBrowserRouter([
         {
           path:'/app/:id',
           Component:AppDetails
-        },
 
+        },
+        {
+          path:'/loading',
+          Component: LoadingSpiner
+        },
+        {
+          path:'*',
+          Component:Error
+        }
         
         // {
         //   path:'/app/*',

@@ -8,21 +8,22 @@ import LoadingSpiner from '../Loading/LoadingSpiner';
 const Root = () => {
 
     const navigation = useNavigation()
-    const isNavigating = Boolean(navigation.location);
+    // const isNavigating = Boolean(navigation.location);
     console.log(navigation.state)
 
     return (
         <>
-        <div className='flex flex-col min-h-screen'>
-            <Navbar></Navbar>
-            <div className=' flex-1 bg-[#f8f9f5]  '>
-                {isNavigating && <LoadingSpiner />}
-                <Outlet></Outlet>
-                </div>
-            <Footer></Footer>
-            
-        </div>
-        <ToastContainer></ToastContainer>
+            <div className='flex flex-col min-h-screen'>
+                <Navbar></Navbar>
+                {
+                    navigation?.state === 'loading' ? <LoadingSpiner /> : <div className=' flex-1 bg-[#f8f9f5]  '>
+                        <Outlet></Outlet>
+                    </div>
+                }
+                <Footer></Footer>
+
+            </div>
+            <ToastContainer></ToastContainer>
         </>
     );
 };

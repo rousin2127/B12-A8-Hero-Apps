@@ -5,6 +5,8 @@ import { toast } from 'react-toastify';
 import D from '../../../assets/images/icon-downloads.png'
 import RA from '../../../assets/images/icon-ratings.png'
 import RE from '../../../assets/images/icon-review.png'
+import Chart from '../../Chart';
+// import { BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid } from 'recharts';
 
 
 
@@ -27,7 +29,8 @@ const AppDetails = () => {
   }, [app]);
 
   if (loading) return <p>Loading....</p>;
-  const { title, image, description, size,companyName, reviews,ratingAvg,downloads } = app || {};
+  const { title, image, description, size,companyName, reviews,ratingAvg,downloads, ratings } = app || {};
+  
 
 
 
@@ -91,7 +94,22 @@ const AppDetails = () => {
         <h2 className='font-bold'>Description</h2>
         <p className='text-[#627382]'>{description}</p>
       </div>
-      
+
+      {/* <div>
+        <BarChart layout='vertical ' width={600} height={300} data={ratings}>
+           <XAxis dataKey="name" stroke="#8884d8" />
+    <YAxis />
+    <Tooltip />
+    <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
+    <Bar dataKey="count" fill="#8884d8" barSize={30} />
+
+        </BarChart>
+      </div> */}
+      {/* <div>
+        {
+          <Chart></Chart>
+        }
+      </div> */}
     </div>
   );
 };

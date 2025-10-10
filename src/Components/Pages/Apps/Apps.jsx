@@ -47,8 +47,8 @@ const Apps = () => {
                 }
             </div>
              ): (
-        <div className='text-center py-10 text-gray-500 text-lg'>
-          No apps here 😕
+        <div className='text-center py-10 text-gray-500 text-3xl font-bold'>
+          No App Found 😕
         </div>)
             }
   

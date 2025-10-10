@@ -7,6 +7,8 @@ import G from '../../../assets/images/g.png'
 import A from '../../../assets/images/a.png'
 
 const Home = () => {
+
+    const home= useLoaderData()
     const{apps, loading, error}=useApps();
     // console.log(apps)
     const homeApps=apps.slice(0,8)

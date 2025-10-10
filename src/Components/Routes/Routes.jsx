@@ -6,29 +6,34 @@ import Error from "../Pages/ErrorPage/Error";
 import Installation from "../Pages/Installation/Installation";
 import AppDetails from "../Pages/AppsDetails/AppDetails";
 import LoadingSpiner from "../Loading/LoadingSpiner";
+import ErrorA from "../Pages/ErrorPage/ErrorA";
 
 
 const router= createBrowserRouter([
   {
     path:'/',
     Component: Root,
-    // hydrateFallbackElement: <LoadingSpiner></LoadingSpiner>,
+    hydrateFallbackElement: <LoadingSpiner></LoadingSpiner>,
     children:[
         {
             index:true,
-            Component:Home
+            Component:Home,
+            loader: () => fetch('../appsData.json')
         },
         {
             path:'/apps',
-            Component:Apps
+            Component:Apps,
+            loader: () => fetch('../appsData.json')
         },
         {
             path:'installation',
-            Component:Installation
+            Component:Installation,
+            loader: () => fetch('../appsData.json')
         },
         {
           path:'/app/:id',
-          Component:AppDetails
+          Component:AppDetails,
+          loader: () => fetch('../appsData.json')
 
         },
         {
@@ -38,7 +43,8 @@ const router= createBrowserRouter([
         {
           path:'*',
           Component:Error
-        }
+        },
+
         
         // {
         //   path:'/app/*',

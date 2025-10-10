@@ -90,10 +90,16 @@ const AppDetails = () => {
         </div>
       </div>
 
+        <div className="my-10">
+  <Chart ratings={ratings} />
+</div>
+
       <div className='my-8'>
         <h2 className='font-bold'>Description</h2>
         <p className='text-[#627382]'>{description}</p>
       </div>
+
+      
 
       {/* <div>
         <BarChart layout='vertical ' width={600} height={300} data={ratings}>

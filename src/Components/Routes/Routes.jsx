@@ -33,7 +33,20 @@ const router= createBrowserRouter([
         {
           path:'/app/:id',
           Component:AppDetails,
-          loader: () => fetch('../appsData.json')
+  loader: async ({ params }) => {
+     const { id } = params;
+         if (!/^\d+$/.test(id)) {
+      throw new Response("Invalid ID", { status: 400, statusText: "Invalid App ID" });
+    }
+    const res = await fetch('../appsData.json');
+    const data = await res.json();
+    const app = data.find(item => item.id === parseInt(id,10));
+    if (!app) {
+      throw new Response("Not Found", { status: 404 });
+    }
+    return app;
+  },
+  errorElement: <ErrorA />
 
         },
         {

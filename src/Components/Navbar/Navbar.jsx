@@ -3,6 +3,12 @@ import { Link, NavLink } from 'react-router';
 import Logo from '../../assets/images/logo.png'
 import GitLogo from '../../assets/images/git.png'
 const Navbar = () => {
+
+    const activeClass = "text-[#632EE3] font-semibold border-b-2 border-[#632EE3] transition-all duration-200";
+    const normalClass = "hover:text-[#632EE3] transition-all duration-200";
+
+
+
     return (
         <div className="navbar bg-base-100 shadow-sm ">
             <div className="navbar-start ml-5">
@@ -25,9 +31,9 @@ const Navbar = () => {
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                    <li><NavLink to='/'>Home</NavLink></li>
-                    <li><NavLink to='/apps'>Apps</NavLink></li>
-                    <li><NavLink to='/installation'>Installation</NavLink></li>
+                    <li><NavLink to='/' className={({ isActive }) => (isActive ? activeClass : normalClass)}>Home</NavLink></li>
+                    <li><NavLink to='/apps' className={({ isActive }) => (isActive ? activeClass : normalClass)}>Apps</NavLink></li>
+                    <li><NavLink to='/installation' className={({ isActive }) => (isActive ? activeClass : normalClass)}>Installation</NavLink></li>
                 </ul>
             </div>
             <div className="navbar-end mr-8">

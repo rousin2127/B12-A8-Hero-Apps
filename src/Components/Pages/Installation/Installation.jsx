@@ -30,7 +30,7 @@ const Installation = () => {
             const existingApp= JSON.parse(localStorage.getItem('installation'))
             let updatedApp= existingApp.filter(a => a.id !==id)
             setInstallation(updatedApp)
-            toast('unstall')
+            toast('Uninstalled successfully!')
             localStorage.setItem('installation', JSON.stringify(updatedApp))
 
     }

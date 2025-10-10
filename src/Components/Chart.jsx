@@ -1,43 +1,40 @@
 import React from "react";
-import Chart from "react-apexcharts";
+import {
+  BarChart,
+  Bar,
+  XAxis,
+  YAxis,
+  Tooltip,
+  CartesianGrid,
+  ResponsiveContainer,
+} from "recharts";
 
-const Charts = () => {
+const Chart = ({ ratings }) => {
+  if (!ratings) return null;
 
-      const categories = app.ratings.map(r => r.name);
-      console.log(categories)
-  const counts = app.ratings.map(r => r.count);
-
-  const options = {
-    chart: {
-      type: 'bar',
-      height: 350
-    },
-    title: {
-      text: "Basic Bar Chart",
-      align: "center"
-    },
-    xaxis: {
-            categories: categories,
-      title: { text: "Rating" },
-    },
-        yaxis: {
-      title: { text: "Count" },
-    },
-    colors: ["#00E396"], // optional
-  };
-
-  const series = [
-    {
-      name: "Fruits Sold",
-      data: [44, 55, 41, 67, 22]
-    }
-  ];
+  const reversedData = [...ratings].reverse();
 
   return (
-    <div className="p-6">
-      <Chart options={options} series={series} type="bar" height={350} />
+    <div className=" shadow-md p-4 mt-6">
+      <h2 className="text-xl font-semibold text-[#632EE3] mb-4">
+        Ratings 
+      </h2>
+
+      <ResponsiveContainer width="100%" height={300}>
+        <BarChart
+          data={reversedData}
+          layout="vertical"
+          // margin={{ top: 10, right: 30, left: 40, bottom: 10 }}
+        >
+          <CartesianGrid strokeDasharray="3 3" />
+          <XAxis type="number" />
+          <YAxis type="category" dataKey="name" />
+          <Tooltip />
+          <Bar dataKey="count" fill="#FF8811"  />
+        </BarChart>
+      </ResponsiveContainer>
     </div>
   );
 };
 
-export default Charts;
+export default Chart;
